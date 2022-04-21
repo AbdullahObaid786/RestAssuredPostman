@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3857" started-at="2022-04-21T23:40:27Z" finished-at="2022-04-21T23:40:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3857" started-at="2022-04-21T23:40:27Z" finished-at="2022-04-21T23:40:31Z">
+      <class name="testCases.DeleteProduct">
+        <test-method status="PASS" signature="createNewProduct()[pri:0, instance:testCases.DeleteProduct@e50a6f6]" name="createNewProduct" duration-ms="2324" started-at="2022-04-21T23:40:27Z" finished-at="2022-04-21T23:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method status="PASS" signature="readAllProducts()[pri:1, instance:testCases.DeleteProduct@e50a6f6]" name="readAllProducts" duration-ms="761" started-at="2022-04-21T23:40:30Z" finished-at="2022-04-21T23:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readAllProducts -->
+        <test-method status="PASS" signature="deleteProduct()[pri:2, instance:testCases.DeleteProduct@e50a6f6]" name="deleteProduct" duration-ms="408" started-at="2022-04-21T23:40:30Z" finished-at="2022-04-21T23:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method status="PASS" signature="readDeleteProduct()[pri:3, instance:testCases.DeleteProduct@e50a6f6]" name="readDeleteProduct" duration-ms="309" started-at="2022-04-21T23:40:31Z" finished-at="2022-04-21T23:40:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readDeleteProduct -->
+      </class> <!-- testCases.DeleteProduct -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
